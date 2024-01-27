@@ -1,6 +1,15 @@
 # GoogleGPT
 
-GoogleGPT is a comprehensive Python program and web application that combines the power of Google search, web scraping, and OpenAI's GPT-3.5-turbo model to provide users with detailed and coherent summaries for their queries. The project is divided into two components: a Python program for command-line usage and a Flask-based web application for a more user-friendly interaction.
+<p align="center">GoogleGPT is a comprehensive Python program and web application that combines the power of Google search, web scraping, and OpenAI's GPT-3.5-turbo model to provide users with detailed and coherent summaries for their queries. The project is divided into two components: a Python program for command-line usage and a Flask-based web application for a more user-friendly interaction.</p>
+<p align="center">
+  <a href="https://t.me/v2raycollectorbot">
+    <img src="https://github.com/mshojaei77/GoogleGPT/assets/76538971/5fd1dc00-49a1-47f8-9be4-e1a789175e10" alt="GoogleGPT">
+  </a>
+   </p>
+
+
+This project is intended for **educational purposes** only. 
+Any other use of it, including commercial, personal, or non-educational use, is not accepted!
 
 ## Python Program
 
