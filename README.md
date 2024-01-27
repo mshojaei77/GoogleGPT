@@ -64,8 +64,36 @@ pip install Flask requests beautifulsoup4 openai google nltk
 
 4. View Results: The application will display the top search result URL along with the GPT-generated summaries for the provided query.
 
-## Future Upgrades
+### Future Upgrades
 1. **Enhanced Frontend**: Improve the frontend by adding more styling, responsiveness, and potentially incorporating AJAX for a smoother user experience.
-3. **Deployment**: Explore deployment options to make the web application accessible online, allowing users to access it from anywhere.
+2. **Deployment**: Explore deployment options to make the web application accessible online, allowing users to access it from anywhere.
+   
+## GoogleGPT_free
 
+A simplified Python program using OpenAI's GPT-4 (GeekGPT) through the G4F library. Fetches and summarizes information from the web with minimal user interaction.
+
+## Features
+
+- **Search and Summarize**: Utilizes GPT-4 (GeekGPT) for generating summaries based on Google search results.
+
+- **Webpage Parsing**: Extracts relevant content from webpages using BeautifulSoup.
+
+- **Caching Mechanism**: Stores GPT responses to reduce redundant API calls.
+
+## Usage
+
+1. **Run the Program**: Execute `main_program()` in `google_gpt_free.py`.
+
+2. **Enter Query**: Input your query.
+
+3. **Optional Website URL**: Provide a specific website URL (optional).
+
+4. **View Results**: Displays relevant information fetched from webpages and GPT-4 generated summaries.
+
+## Dependencies
+
+```bash
+pip install requests beautifulsoup4 g4f google nltk
+```
+-------------------
 Feel free to contribute, report issues, or suggest improvements to make the GoogleGPT project even more user-friendly and reliable.
