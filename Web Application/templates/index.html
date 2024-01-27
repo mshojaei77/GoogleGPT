@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask ChatGPT Web App</title>
+</head>
+<body>
+    <h1>GoogleGPT</h1>
+    <form method="post" action="/">
+        <label for="query">Enter your query:</label>
+        <input type="text" name="query" required>
+        <br>
+        <label for="website">Enter site URL (optional):</label>
+        <input type="text" name="website">
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+
+    {% if gpt_responses %}
+        <h2>Result URL:</h2>
+        <p>{{ result_url }}</p>
+
+        <h2>GPT Responses:</h2>
+        {% for response in gpt_responses %}
+            <p>{{ response }}</p>
+        {% endfor %}
+    {% endif %}
+</body>
+</html>
