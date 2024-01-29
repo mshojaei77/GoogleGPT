@@ -57,7 +57,7 @@ pip install Flask requests beautifulsoup4 openai google nltk
 
 ### Running the Web Application
 
-1. Open `app.py` and replace the placeholder `'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'` with your OpenAI API key in the `openai_client` initialization.
+1. Open `app.py` and replace the placeholder `'YOUR API KEY'` with your OpenAI API key in the `openai_client` initialization.
 
 2. Run the Web App: Execute `python app.py` in the terminal to start the Flask development server.
 
